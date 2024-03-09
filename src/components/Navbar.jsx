@@ -8,9 +8,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="bg-white z-9 custom-shadow w-full fixed top-0 left-0 z-20 ">
-    <nav className="py-4 md:px-10 px-9 justify-between items-center navbar md:mx-auto m-0">
-      <img src={logo} alt="hoobank" className=" w-16 h-10 object-contain md:w-24 md:h-8 cursor-pointer" />
+    <div className="bg-gray-600 shadow-md w-full fixed top-0 left-0 ">
+    <nav className="py-6 md:px-10 px-6 justify-between items-center navbar md:mx-auto m-0">
+      <img src={logo} alt="hoobank" className="w-[124px] h-[32px] cursor-pointer" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
